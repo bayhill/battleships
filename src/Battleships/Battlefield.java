@@ -52,7 +52,7 @@ public class Battlefield extends JPanel implements ActionListener {
 				Square square = new Square(k,i);
 				square.addActionListener(this);
 				square.setBackground(Color.GRAY);
-				square.setBorder(new LineBorder(Color.CYAN, 1));
+				square.setBorder(new LineBorder(Color.BLACK, 1));
 				square.setEnabled(false);
 				add(square);
 				game[i][k] = square;
